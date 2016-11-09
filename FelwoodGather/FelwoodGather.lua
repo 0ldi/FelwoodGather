@@ -911,7 +911,7 @@ function FelwoodGather_NotifyEstimate(Objs, eta, useChannel)
 		return;
 	end
 	local d, h, m, s = ChatFrame_TimeBreakDown(math.abs(eta));
-	local message = format(FWG_NOTIFY_MESSAGE, Objs.item, m, s, Objs.location);
+	local message = format(FWG_NOTIFY_MESSAGE, Objs.item, m, s, Objs.location, Objs.x, Objs.y);
 	if (useChannel) then
 		local channel;
 		if (GetNumRaidMembers() > 0) then

@@ -55,7 +55,7 @@ FWG_LOOTMSG_MATCH_PATTERN="You receive item:(.+)%.";
 FELWOODGATHER_SHARE_TIMER_FORMAT="%s %d %02d:%02d %s at %s(%d, %d)";
 FELWOODGATHER_PARSE_FORMAT="([^%s]+) ([^%s]+) ([^%s]+):([^%s]+)";
 --notification
-FWG_NOTIFY_MESSAGE="%s will spawn in %02d:%02d - at %s!";
+FWG_NOTIFY_MESSAGE="%s will spawn in %02d:%02d - at %s(%d, %d)";
 FWG_BROADCAST_COUNTS=" timer(s) broadcasted.";
 FWG_NOT_HAVE_TIMER="You don't have the timer.";
 --tooltip

@@ -26,7 +26,7 @@ FwgFuLocals = {
 	MENU_SHOW_COORDS = "Show coords",
 	
 	ICON_TEXTURE="Interface\\Icons\\INV_Misc_Food_55",
-	NO_TIMER = "No Timer"
+	NO_TIMER = " "
 }
 
 FwgFuLocals.CMD_OPTIONS = {
